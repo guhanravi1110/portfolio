@@ -6,7 +6,6 @@ import project3 from '../assets/images/project3.svg'
 const projects = [
   { id: 1, name: 'Portfolio Website', desc: 'Built using React and CSS.', tech: ['React', 'CSS'], img: project1, github: '#', live: '#' },
   { id: 2, name: 'Weather App', desc: 'Uses API to fetch weather data.', tech: ['JavaScript', 'API'], img: project2, github: '#', live: '#' },
-  { id: 3, name: 'Task Manager', desc: 'CRUD application using React.', tech: ['React', 'LocalStorage'], img: project3, github: '#', live: '#' },
 ]
 
 export default function Projects() {
