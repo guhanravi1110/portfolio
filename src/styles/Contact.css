@@ -1,0 +1,10 @@
+
+.contact-section { padding: 48px 20px; }
+.contact-form { max-width: 720px; margin: 0 auto; display: grid; gap: 14px; background: var(--card); padding: 18px; border-radius: 12px; box-shadow: var(--shadow); border: 1px solid var(--border); }
+.contact-form .field { display: flex; flex-direction: column; }
+.contact-form input, .contact-form textarea { padding: 10px; border: 1px solid #e6eef8; border-radius: 10px; background: #fbfdff; outline: none; transition: box-shadow 140ms ease, border-color 140ms ease; }
+.contact-form input:focus, .contact-form textarea:focus { box-shadow: 0 6px 18px rgba(37,99,235,0.08); border-color: var(--accent); }
+.contact-form textarea { min-height: 140px; resize: vertical; }
+.status { margin-top: 8px; }
+.status.ok { color: green; }
+.status.err { color: #ef4444; }

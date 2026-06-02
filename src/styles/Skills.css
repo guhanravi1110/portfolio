@@ -1,0 +1,9 @@
+.skills-section { padding: 48px 20px; }
+.skills-grid { max-width: 1100px; margin: 0 auto; display: flex; gap: 18px; flex-wrap: wrap; }
+.skill-card { flex: 1 1 280px; padding: 18px; border-radius: 12px; background: var(--card); box-shadow: var(--shadow); border: 1px solid var(--border); }
+.skill-row { display: flex; align-items: center; gap: 12px; margin: 10px 0; }
+.skill-name { width: 120px; color: var(--text); font-weight: 600; }
+.progress { background: #f1f5f9; height: 12px; border-radius: 999px; flex: 1; overflow: hidden; }
+.progress-bar { background: linear-gradient(90deg,var(--accent),var(--accent-2)); height: 100%; border-radius: 999px; transition: width 420ms ease; }
+
+.skill-card small { color: var(--muted); }
