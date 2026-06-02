@@ -20,7 +20,7 @@ export default function Navbar() {
   return (
     <header className="navbar">
       <div className="nav-inner container">
-        <div className="brand">John Doe</div>
+        <div className="brand">Guhan R</div>
 
         <button
           className="nav-toggle"
